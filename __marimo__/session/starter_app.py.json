@@ -1,0 +1,151 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.2"
+  },
+  "cells": [
+    {
+      "id": "MJUe",
+      "code_hash": "1efdfb7af4904ded046397d8c6584dd5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"okobilanz-app-fur-erneuerbare-energien\">\ud83c\udf31 \u00d6kobilanz-App f\u00fcr Erneuerbare Energien</h1>\n<span class=\"paragraph\"><strong>Entwickelt von: [6]</strong></span>\n<span class=\"paragraph\">Kurze Beschreibung eurer App hier einf\u00fcgen...</span>\n<hr /></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "90a8b418c921fc61eace710d93c76c3b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"visualisierung\">\ud83d\udcc8 Visualisierung</h2>\n<span class=\"paragraph\"><em>Hier kommen eure Diagramme hin...</em></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "d7fc13d13923a64f3c27bb2413231df1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><hr />\n<h2 id=\"i-hinweise\">\u2139\ufe0f Hinweise</h2>\n<span class=\"paragraph\"><strong>Datenquellen:</strong></span>\n<ul>\n<li>[Hier eure Quellen angeben]</li>\n</ul>\n<span class=\"paragraph\"><strong>Methodik:</strong></span>\n<ul>\n<li>[Hier eure Methodik beschreiben]</li>\n</ul>\n<hr />\n<span class=\"paragraph\"><em>Entwickelt f\u00fcr die Fachschule f\u00fcr Umweltschutztechnik</em></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hbol",
+      "code_hash": "b7067c9f0e6eba3d27511dab72ce76b9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "25daeaab5f120d1989014a18113e0179",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "cc82403d5671b9a9f5e7d84cfe08fd73",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='bkHC-0' random-id='357246b7-54c9-fa12-fcc2-53d7002a8559'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Energietr&#92;&#92;u00e4ger&#92;&quot;:&#92;&quot;Photovoltaik (Dach)&#92;&quot;,&#92;&quot;CO2_eq_g_kWh&#92;&quot;:40,&#92;&quot;KEA_MJ_kWh&#92;&quot;:0.45,&#92;&quot;Flaechenbedarf_m2_kW&#92;&quot;:7.0,&#92;&quot;Lebensdauer_Jahre&#92;&quot;:25,&#92;&quot;Erntefaktor&#92;&quot;:10,&#92;&quot;Kategorie&#92;&quot;:&#92;&quot;Solar&#92;&quot;},{&#92;&quot;Energietr&#92;&#92;u00e4ger&#92;&quot;:&#92;&quot;Photovoltaik (Freifl&#92;&#92;u00e4che)&#92;&quot;,&#92;&quot;CO2_eq_g_kWh&#92;&quot;:35,&#92;&quot;KEA_MJ_kWh&#92;&quot;:0.4,&#92;&quot;Flaechenbedarf_m2_kW&#92;&quot;:20.0,&#92;&quot;Lebensdauer_Jahre&#92;&quot;:25,&#92;&quot;Erntefaktor&#92;&quot;:12,&#92;&quot;Kategorie&#92;&quot;:&#92;&quot;Solar&#92;&quot;},{&#92;&quot;Energietr&#92;&#92;u00e4ger&#92;&quot;:&#92;&quot;Windkraft (Onshore)&#92;&quot;,&#92;&quot;CO2_eq_g_kWh&#92;&quot;:10,&#92;&quot;KEA_MJ_kWh&#92;&quot;:0.08,&#92;&quot;Flaechenbedarf_m2_kW&#92;&quot;:30.0,&#92;&quot;Lebensdauer_Jahre&#92;&quot;:20,&#92;&quot;Erntefaktor&#92;&quot;:50,&#92;&quot;Kategorie&#92;&quot;:&#92;&quot;Wind&#92;&quot;},{&#92;&quot;Energietr&#92;&#92;u00e4ger&#92;&quot;:&#92;&quot;Windkraft (Offshore)&#92;&quot;,&#92;&quot;CO2_eq_g_kWh&#92;&quot;:12,&#92;&quot;KEA_MJ_kWh&#92;&quot;:0.1,&#92;&quot;Flaechenbedarf_m2_kW&#92;&quot;:15.0,&#92;&quot;Lebensdauer_Jahre&#92;&quot;:25,&#92;&quot;Erntefaktor&#92;&quot;:45,&#92;&quot;Kategorie&#92;&quot;:&#92;&quot;Wind&#92;&quot;},{&#92;&quot;Energietr&#92;&#92;u00e4ger&#92;&quot;:&#92;&quot;Wasserkraft (Laufwasser)&#92;&quot;,&#92;&quot;CO2_eq_g_kWh&#92;&quot;:4,&#92;&quot;KEA_MJ_kWh&#92;&quot;:0.02,&#92;&quot;Flaechenbedarf_m2_kW&#92;&quot;:0.5,&#92;&quot;Lebensdauer_Jahre&#92;&quot;:80,&#92;&quot;Erntefaktor&#92;&quot;:200,&#92;&quot;Kategorie&#92;&quot;:&#92;&quot;Wasser&#92;&quot;},{&#92;&quot;Energietr&#92;&#92;u00e4ger&#92;&quot;:&#92;&quot;Biomasse (Holz-HKW)&#92;&quot;,&#92;&quot;CO2_eq_g_kWh&#92;&quot;:30,&#92;&quot;KEA_MJ_kWh&#92;&quot;:0.15,&#92;&quot;Flaechenbedarf_m2_kW&#92;&quot;:500.0,&#92;&quot;Lebensdauer_Jahre&#92;&quot;:20,&#92;&quot;Erntefaktor&#92;&quot;:8,&#92;&quot;Kategorie&#92;&quot;:&#92;&quot;Biomasse&#92;&quot;},{&#92;&quot;Energietr&#92;&#92;u00e4ger&#92;&quot;:&#92;&quot;Biogas (landw.)&#92;&quot;,&#92;&quot;CO2_eq_g_kWh&#92;&quot;:170,&#92;&quot;KEA_MJ_kWh&#92;&quot;:0.85,&#92;&quot;Flaechenbedarf_m2_kW&#92;&quot;:300.0,&#92;&quot;Lebensdauer_Jahre&#92;&quot;:15,&#92;&quot;Erntefaktor&#92;&quot;:3,&#92;&quot;Kategorie&#92;&quot;:&#92;&quot;Biomasse&#92;&quot;},{&#92;&quot;Energietr&#92;&#92;u00e4ger&#92;&quot;:&#92;&quot;Solarthermie&#92;&quot;,&#92;&quot;CO2_eq_g_kWh&#92;&quot;:25,&#92;&quot;KEA_MJ_kWh&#92;&quot;:0.3,&#92;&quot;Flaechenbedarf_m2_kW&#92;&quot;:3.0,&#92;&quot;Lebensdauer_Jahre&#92;&quot;:20,&#92;&quot;Erntefaktor&#92;&quot;:15,&#92;&quot;Kategorie&#92;&quot;:&#92;&quot;Solar&#92;&quot;},{&#92;&quot;Energietr&#92;&#92;u00e4ger&#92;&quot;:&#92;&quot;Geothermie&#92;&quot;,&#92;&quot;CO2_eq_g_kWh&#92;&quot;:38,&#92;&quot;KEA_MJ_kWh&#92;&quot;:0.42,&#92;&quot;Flaechenbedarf_m2_kW&#92;&quot;:2.0,&#92;&quot;Lebensdauer_Jahre&#92;&quot;:30,&#92;&quot;Erntefaktor&#92;&quot;:12,&#92;&quot;Kategorie&#92;&quot;:&#92;&quot;Geothermie&#92;&quot;}]&quot;' data-total-rows='9' data-total-columns='7' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;Energietr\u00e4ger&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;CO2_eq_g_kWh&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;KEA_MJ_kWh&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Flaechenbedarf_m2_kW&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Lebensdauer_Jahre&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;Erntefaktor&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;Kategorie&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "abc165d2c930a78e621a724643451ff1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/vnd.vegalite.v5+json": "{\n  \"$schema\": \"https://vega.github.io/schema/vega-lite/v6.1.0.json\",\n  \"config\": {\n    \"axis\": {\n      \"grid\": true\n    },\n    \"view\": {\n      \"continuousHeight\": 300,\n      \"continuousWidth\": 300\n    }\n  },\n  \"data\": {\n    \"name\": \"data-c9f11418309cc9055994294e8f7ba80f\"\n  },\n  \"datasets\": {\n    \"data-c9f11418309cc9055994294e8f7ba80f\": [\n      {\n        \"CO2_eq_g_kWh\": 40,\n        \"Energietr\\u00e4ger\": \"Photovoltaik (Dach)\",\n        \"Erntefaktor\": 10,\n        \"Flaechenbedarf_m2_kW\": 7.0,\n        \"KEA_MJ_kWh\": 0.45,\n        \"Kategorie\": \"Solar\",\n        \"Lebensdauer_Jahre\": 25\n      },\n      {\n        \"CO2_eq_g_kWh\": 35,\n        \"Energietr\\u00e4ger\": \"Photovoltaik (Freifl\\u00e4che)\",\n        \"Erntefaktor\": 12,\n        \"Flaechenbedarf_m2_kW\": 20.0,\n        \"KEA_MJ_kWh\": 0.4,\n        \"Kategorie\": \"Solar\",\n        \"Lebensdauer_Jahre\": 25\n      },\n      {\n        \"CO2_eq_g_kWh\": 10,\n        \"Energietr\\u00e4ger\": \"Windkraft (Onshore)\",\n        \"Erntefaktor\": 50,\n        \"Flaechenbedarf_m2_kW\": 30.0,\n        \"KEA_MJ_kWh\": 0.08,\n        \"Kategorie\": \"Wind\",\n        \"Lebensdauer_Jahre\": 20\n      },\n      {\n        \"CO2_eq_g_kWh\": 12,\n        \"Energietr\\u00e4ger\": \"Windkraft (Offshore)\",\n        \"Erntefaktor\": 45,\n        \"Flaechenbedarf_m2_kW\": 15.0,\n        \"KEA_MJ_kWh\": 0.1,\n        \"Kategorie\": \"Wind\",\n        \"Lebensdauer_Jahre\": 25\n      },\n      {\n        \"CO2_eq_g_kWh\": 4,\n        \"Energietr\\u00e4ger\": \"Wasserkraft (Laufwasser)\",\n        \"Erntefaktor\": 200,\n        \"Flaechenbedarf_m2_kW\": 0.5,\n        \"KEA_MJ_kWh\": 0.02,\n        \"Kategorie\": \"Wasser\",\n        \"Lebensdauer_Jahre\": 80\n      },\n      {\n        \"CO2_eq_g_kWh\": 30,\n        \"Energietr\\u00e4ger\": \"Biomasse (Holz-HKW)\",\n        \"Erntefaktor\": 8,\n        \"Flaechenbedarf_m2_kW\": 500.0,\n        \"KEA_MJ_kWh\": 0.15,\n        \"Kategorie\": \"Biomasse\",\n        \"Lebensdauer_Jahre\": 20\n      },\n      {\n        \"CO2_eq_g_kWh\": 170,\n        \"Energietr\\u00e4ger\": \"Biogas (landw.)\",\n        \"Erntefaktor\": 3,\n        \"Flaechenbedarf_m2_kW\": 300.0,\n        \"KEA_MJ_kWh\": 0.85,\n        \"Kategorie\": \"Biomasse\",\n        \"Lebensdauer_Jahre\": 15\n      },\n      {\n        \"CO2_eq_g_kWh\": 25,\n        \"Energietr\\u00e4ger\": \"Solarthermie\",\n        \"Erntefaktor\": 15,\n        \"Flaechenbedarf_m2_kW\": 3.0,\n        \"KEA_MJ_kWh\": 0.3,\n        \"Kategorie\": \"Solar\",\n        \"Lebensdauer_Jahre\": 20\n      },\n      {\n        \"CO2_eq_g_kWh\": 38,\n        \"Energietr\\u00e4ger\": \"Geothermie\",\n        \"Erntefaktor\": 12,\n        \"Flaechenbedarf_m2_kW\": 2.0,\n        \"KEA_MJ_kWh\": 0.42,\n        \"Kategorie\": \"Geothermie\",\n        \"Lebensdauer_Jahre\": 30\n      }\n    ]\n  },\n  \"encoding\": {\n    \"tooltip\": [\n      {\n        \"field\": \"Energietr\\u00e4ger\"\n      },\n      {\n        \"aggregate\": \"mean\",\n        \"field\": \"CO2_eq_g_kWh\",\n        \"format\": \",.0f\"\n      }\n    ],\n    \"x\": {\n      \"field\": \"Energietr\\u00e4ger\",\n      \"type\": \"nominal\"\n    },\n    \"y\": {\n      \"aggregate\": \"mean\",\n      \"field\": \"CO2_eq_g_kWh\",\n      \"type\": \"quantitative\"\n    }\n  },\n  \"height\": 290,\n  \"mark\": {\n    \"type\": \"point\"\n  },\n  \"usermeta\": {\n    \"embedOptions\": {}\n  },\n  \"width\": \"container\"\n}"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "262b7eb0f62398d95228e7c672906ea9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "1fde59b1fd4fdd4011cee0cc1d4494af",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"parameter-einstellen\">\u2699\ufe0f Parameter einstellen</h2>\n<div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 2rem'><marimo-ui-element object-id='PKri-0' random-id='615f60ec-6aa4-ed49-312c-54cd05fe0249'><marimo-dropdown data-initial-value='[&quot;Photovoltaik (Dach)&quot;]' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Energietr\u00e4ger ausw\u00e4hlen&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;Photovoltaik (Dach)&quot;,&quot;Photovoltaik (Freifl\u00e4che)&quot;,&quot;Windkraft (Onshore)&quot;,&quot;Windkraft (Offshore)&quot;,&quot;Wasserkraft (Laufwasser)&quot;,&quot;Biomasse (Holz-HKW)&quot;,&quot;Biogas (landw.)&quot;,&quot;Solarthermie&quot;,&quot;Geothermie&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element><marimo-ui-element object-id='PKri-1' random-id='f61db02d-1f16-1c4f-7037-471a043e39e2'><marimo-slider data-initial-value='100' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Leistung (kW)&lt;/span&gt;&lt;/span&gt;&quot;' data-start='1' data-stop='1000' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "38e871981bc3f4494e7fd83bd5610dc7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "5b54e111012a1302b97004704fe949d5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"ergebnisse-fur-photovoltaik-dach\">\ud83d\udcca Ergebnisse f\u00fcr Photovoltaik (Dach)</h2>\n<h3 id=\"energieertrag\">Energieertrag</h3>\n<table>\n<thead>\n<tr>\n<th>Kennzahl</th>\n<th>Wert</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Installierte Leistung</td>\n<td><strong>471 kW</strong></td>\n</tr>\n<tr>\n<td>Jahresertrag</td>\n<td><strong>518,100 kWh/a</strong></td>\n</tr>\n</tbody>\n</table></span>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
