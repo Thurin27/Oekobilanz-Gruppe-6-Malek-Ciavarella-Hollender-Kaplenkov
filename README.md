@@ -1,0 +1,1 @@
+# Oekobilanz-Gruppe-6-Malek-Ciavarella-Hollender-Kaplenkov
